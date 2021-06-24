@@ -1,0 +1,33 @@
+.header{
+background-color: yellowgreen;
+text-align: center;
+color:white
+}
+.main p{
+    font-size: x-large;
+
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    text-align: center;
+    color:white;
+    position:absolute
+}
+.origami{
+    border:solid;
+    padding: 25px;
+    margin : 100px;
+}
+
+.origami img{
+    border:solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
